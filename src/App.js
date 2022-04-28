@@ -1,6 +1,6 @@
 import Books from "./components/Books";
 
-function App() {
+const App = () => {
   const library = [
     {
       id: "1",
@@ -30,6 +30,6 @@ function App() {
       <Books library={library} />
     </div>
   );
-}
+};
 
 export default App;
